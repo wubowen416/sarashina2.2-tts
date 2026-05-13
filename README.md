@@ -1,10 +1,10 @@
-# sarashina2.2-tts
+# Sarashina2.2-TTS
 
 [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-sarashina2.2--tts-yellow)](https://huggingface.co/sbintuitions/sarashina2.2-tts) [![Demo](https://img.shields.io/badge/DemoPage-Listen-blue)](https://huggingface.co/sbintuitions/sarashina2.2-tts#audio-samples) [![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey)](#)
 
 **English** | [日本語](README_ja.md)
 
-**sarashina2.2-tts** is a Japanese-centric text-to-speech system built on a large language model, developed by [SB Intuitions](https://www.sbintuitions.co.jp/). It supports Japanese and English, delivering high pronunciation accuracy, naturalness, and stability across diverse speaking styles, with zero-shot voice generation support.
+**Sarashina2.2-TTS** is a Japanese-centric text-to-speech system built on a large language model, developed by [SB Intuitions](https://www.sbintuitions.co.jp/). It supports Japanese and English, delivering high pronunciation accuracy, naturalness, and stability across diverse speaking styles, with zero-shot voice generation support.
 
 > 🎧 Listen to our audio samples [here](https://huggingface.co/sbintuitions/sarashina2.2-tts#audio-samples).
 
@@ -131,7 +131,7 @@ The generated audio contains an inaudible watermark powered by [SilentCipher](ht
 
 ## Prompting Guide
 
-sarashina2.2-tts is a research-oriented foundation model. It was trained on a large volume of speech data spanning diverse styles and quality levels, without filtering for specific use cases. This means the model has learned a wide range of speaking patterns - but it also means that **the quality and characteristics of the audio prompt directly determine the quality of the generated speech**. A well-chosen prompt is the key to getting the best results.
+Sarashina2.2-TTS is a research-oriented foundation model. It was trained on a large volume of speech data spanning diverse styles and quality levels, without filtering for specific use cases. This means the model has learned a wide range of speaking patterns - but it also means that **the quality and characteristics of the audio prompt directly determine the quality of the generated speech**. A well-chosen prompt is the key to getting the best results.
 
 ### 1. Audio Quality
 The audio quality of the prompt is carried over to the generated speech. If you want clean, high-quality output, use a prompt with clear audio — minimal background noise, no clipping, and consistent volume.

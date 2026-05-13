@@ -1,10 +1,10 @@
-# sarashina2.2-tts
+# Sarashina2.2-TTS
 
 [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-sarashina2.2--tts-yellow)](https://huggingface.co/sbintuitions/sarashina2.2-tts) [![Demo](https://img.shields.io/badge/DemoPage-Listen-blue)](https://huggingface.co/sbintuitions/sarashina2.2-tts#audio-samples) [![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey)](#)
 
 [English](README.md) | **日本語**
 
-**sarashina2.2-tts** は、[SB Intuitions](https://www.sbintuitions.co.jp/) が開発した、大規模言語モデルをベースにした日本語中心の音声合成（TTS）システムです。日本語と英語に対応し、高い発音精度・自然性・安定性を備え、多様な話し方スタイルに対応したゼロショット音声クローニングをサポートしています。
+**Sarashina2.2-TTS** は、[SB Intuitions](https://www.sbintuitions.co.jp/) が開発した、大規模言語モデルをベースにした日本語中心の音声合成（TTS）システムです。日本語と英語に対応し、高い発音精度・自然性・安定性を備え、多様な話し方スタイルに対応したゼロショット音声クローニングをサポートしています。
 
 > 🎧 デモ音声は[こちら](https://huggingface.co/sbintuitions/sarashina2.2-tts#audio-samples)から試聴できます。
 
@@ -131,7 +131,7 @@ generator.save_audios(wavs, output_dir="./output")
 
 ## プロンプトガイド
 
-arashina2.2-tts は研究用途の基盤モデルです。特定のユースケースに限定せず、多様なスタイル・品質の大規模音声データで学習されています。そのため、モデルは幅広い話し方のパターンを習得していますが、同時に**音声プロンプトの品質と特徴が生成音声の品質を直接左右します**。最適な結果を得るには、適切なプロンプトの選択が重要です。
+Sarashina2.2-TTS は研究用途の基盤モデルです。特定のユースケースに限定せず、多様なスタイル・品質の大規模音声データで学習されています。そのため、モデルは幅広い話し方のパターンを習得していますが、同時に**音声プロンプトの品質と特徴が生成音声の品質を直接左右します**。最適な結果を得るには、適切なプロンプトの選択が重要です。
 
 ### 1. 音声品質
 プロンプト音声の音質がそのまま生成音声に反映されます。クリアで高品質な出力を得たい場合は、背景ノイズやクリッピングが少なく、音量が安定した音声をプロンプトとして使用してください。
