@@ -1,6 +1,6 @@
 # Sarashina2.2-TTS
 
-[![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-sarashina2.2--tts-yellow)](https://huggingface.co/sbintuitions/sarashina2.2-tts) [![Demo](https://img.shields.io/badge/DemoPage-Listen-blue)](https://huggingface.co/sbintuitions/sarashina2.2-tts#audio-samples) [![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey)](#)
+[![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-sarashina2.2--tts-yellow)](https://huggingface.co/sbintuitions/sarashina2.2-tts) [![Demo](https://img.shields.io/badge/DemoPage-Listen-blue)](https://huggingface.co/sbintuitions/sarashina2.2-tts#audio-samples) [![Arxiv](https://img.shields.io/badge/Arxiv-2606.25369-red?logo=Arxiv&amp)](https://arxiv.org/abs/2606.25369)
 
 **English** | [日本語](README_ja.md)
 
@@ -159,6 +159,19 @@ This model is built upon or incorporates code and models from the following open
 - [HiFT-GAN](https://github.com/yl4579/HiFTNet)
 - [3D-Speaker](https://github.com/modelscope/3D-Speaker)
 - [SilentCipher](https://github.com/sony/silentcipher)
+
+## Citation
+```
+@misc{liu2026sarashina22ttstacklingkanjipolyphony,
+      title={Sarashina2.2-TTS: Tackling Kanji Polyphony in Japanese Speech Generation via Data Scaling and Targeted Data Synthesis}, 
+      author={Lianbo Liu and Shiao Zhu and Kai Washizaki and Reo Yoneyama and Haesung Jeon and Mengjie Zhao and Yusuke Fujita and Hao Shi and Nao Yoshida and Yuan Gao and Roman Koshkin and Yukiya Hono and Yui Sudo},
+      year={2026},
+      eprint={2606.25369},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2606.25369}, 
+}
+```
 
 ## License
 This model is licensed under [Sarashina Model NonCommercial License Agreement](./LICENSE).
