@@ -1,3 +1,9 @@
+# Large local artifacts
+output/
+pretrained_models/
+runs/
+wandb/
+
 .vscode
 
 # Pylance

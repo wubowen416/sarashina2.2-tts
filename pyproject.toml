@@ -28,6 +28,9 @@ dependencies = [
     # Serving
     "gradio",
     "fastapi",
+    "tyro>=1.0.15",
+    "wandb>=0.28.1",
+    "accelerate>=1.14.0",
 ]
 
 [project.optional-dependencies]
